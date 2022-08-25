@@ -14,7 +14,7 @@ import com.google.gson.Gson;
  *
  */
 
-@Anotacion
+@RutaAnotacion
 public class SerializarObjeto {
 
 	public static void JSONConverter(Object object, String filePath) throws IOException {

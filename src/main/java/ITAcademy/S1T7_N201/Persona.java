@@ -1,11 +1,12 @@
 package ITAcademy.S1T7_N201;
 
+@RutaAnotacion
 public class Persona {
 
-	String nombre;
-	String apellidos;
-	int edad;
-	String direccion;
+	private String nombre;
+	private String apellidos;
+	private int edad;
+	private String direccion;
 	
 	public Persona(String nombre, String apellidos, int edad, String direccion) {
 		this.nombre = nombre;

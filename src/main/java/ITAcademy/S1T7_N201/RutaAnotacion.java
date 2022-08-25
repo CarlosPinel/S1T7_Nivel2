@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 	//Indica que el objetivo de nuestra anotación es cualquiera (clase, campo, metodo...) es una restriccion de uso de la anotacion
 	@Target(ElementType.TYPE)
 	//descripcion de la anotacion
-	public @interface Anotacion 
+	public @interface RutaAnotacion 
 	{
 		//ruta donde colocar el fichero JSON
 		//String filePath() default ".\\";
