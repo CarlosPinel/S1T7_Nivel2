@@ -15,7 +15,7 @@ public class App {
 
 		Persona persona1 = new Persona("Maria", "Diaz", 30, "Avenida de los cipreses");
 		String filePath = JSONConverter(persona1);
-		System.out.println("El objeto " + persona1 + " se ha guardado en el fichero " + filePath);
+		System.out.println("El objeto " + persona1.getClass().getName() + " se ha guardado en el fichero " + filePath);
 
 	}
 
